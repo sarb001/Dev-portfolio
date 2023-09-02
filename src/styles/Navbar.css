@@ -1,0 +1,15 @@
+.navlinks > ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.navbar-container{
+    display: grid;
+    grid-template-columns: 1fr 0fr 1fr;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(162, 162, 162);
+}
+.navtitle{
+    padding: 2% 7%;
+}

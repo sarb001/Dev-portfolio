@@ -12,7 +12,7 @@ const Contact = () => {
          <div className="connect-details" style = {{cursor:'pointer'}}>
 
                   <div className="twitter-contact">  
-                    <div className="logosection"></div>
+                    <div className="logosection">  </div>
                       <div className="logo-text">
                         iamsarb_001 
                       </div>
