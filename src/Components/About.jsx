@@ -8,7 +8,6 @@ const About = () => {
                      <div className = 'about' > About me!  </div>
                 </div>
 
-
                     <div className="allcard-container">
                   
                         <div className = 'card-container'>
