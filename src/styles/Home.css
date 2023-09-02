@@ -1,0 +1,9 @@
+.home-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.home-text{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}

@@ -12,7 +12,7 @@ import Contact from './Components/Contact';
 function App() {
   return (
     <BrowserRouter>
-    <Navbar />
+       <Navbar />
        <div className="mainapp">
           <Home />
           <About />

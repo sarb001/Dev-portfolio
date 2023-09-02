@@ -1,12 +1,9 @@
 import React from 'react'
 import '../styles/Navbar.css' ;
 
-
-
 const Navbar = () => {
   return (
     <div className = 'navbar-container'>
-
         <div className = "navtitle">
             <a id = "home" href = "#home">  iamsarb_001  </a>
         </div>
