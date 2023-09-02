@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/Skills.css' ;
 
 const Skills = () => {
   return (
@@ -8,6 +9,8 @@ const Skills = () => {
                   <span> Skills </span>
               </div>
 
+         <div className="skill-logo-section">
+            
               <div className="skills">
                  <div className="skillimg">
                   <img src = "/src/assets/HTML-1.png"   alt = "HTML" />
@@ -62,6 +65,7 @@ const Skills = () => {
                  </div>
               </div>
 
+         </div>
     </div>
   )
 }
