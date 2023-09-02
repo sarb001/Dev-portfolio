@@ -11,6 +11,7 @@
     width: 300px;
     height: 100%;
     padding: 2%;
+    border-radius: 10%;
 }
 .cardimage{
     padding: 2%;

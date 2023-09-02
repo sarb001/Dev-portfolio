@@ -1,0 +1,11 @@
+.contact-text{
+    font-size: 30px;
+    text-align: center;
+}
+.contact{
+    font-size: 16px;
+}
+.connect-details{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}

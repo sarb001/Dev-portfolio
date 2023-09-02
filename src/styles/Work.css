@@ -1,0 +1,28 @@
+.portfolio-text{
+    font-size: 30px;
+}
+.work-section{
+    margin: 5%;
+}
+.card-img > img {
+    width: 75%;
+    margin: 3%;
+}
+.workcard{
+    width: 350px;
+    background-color: burlywood;
+    height: 100%;
+}
+.portfolio-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+}
+.btn-section{
+    display: grid;
+    grid-template-columns : 1fr 1fr;
+    margin: 3%;
+    justify-content: space-around;
+}
+.btn{
+    width: 90%;
+}
