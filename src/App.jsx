@@ -1,17 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import { BrowserRouter } from 'react-router-dom' ;
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import About from './Components/About';
+import Skills from './Components/Skills';
+import Work from './Components/Work';
+import Contact from './Components/Contact';
+
 
 function App() {
-
   return (
-    <>
-      <div>
-        Hello Hearing 
-      </div>
-    
-    </>
+    <BrowserRouter>
+    <Navbar />
+       <div className="mainapp">
+          <Home />
+          <About />
+          <Skills />
+          <Work />
+          <Contact />
+       </div>
+    </BrowserRouter>
   )
 }
 
