@@ -22,3 +22,17 @@
         font-size: 26px;
     }
 }
+@media screen and (max-width : 480px){  
+    .navbar-container{
+        background-color: rgb(13, 216, 238);
+    }
+    .home-avataimg > img{
+        width: 68%;
+    }
+    .home-items{
+        grid-template-rows: 0.5fr 0.5fr;
+    }
+    .home-text{
+        margin: 12% 18%;
+    }
+}

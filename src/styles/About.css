@@ -38,8 +38,12 @@
         font-size: 15px;
     }
     .allcard-container{
-        
         grid-template-columns: repeat(auto-fit,minmax(242px,1fr));
+    }
+}
+@media screen and (max-width : 480px){  
+    .card{
+        width: 230px
     }
 }
 
