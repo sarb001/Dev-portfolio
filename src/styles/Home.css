@@ -8,8 +8,17 @@
     align-self: center;
     margin: 6%;
 }
+#font{
+    font-size: 34px;
+}
+
 @media screen and (max-width : 889px){  
     .home-avataimg > img{
         width: 75%;
+    }
+}
+@media screen and (max-width : 768px){  
+    #font {
+        font-size: 26px;
     }
 }

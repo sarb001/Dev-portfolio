@@ -37,3 +37,14 @@
         grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
     }
 }
+
+
+@media screen and (max-width : 768px){ 
+    .workcard {
+        width: 295px;
+    }
+    .portfolio-container{
+        justify-items: center;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    }
+}

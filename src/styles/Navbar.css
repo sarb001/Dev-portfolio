@@ -24,6 +24,10 @@
 @media screen and (max-width : 768px){  
     .navbar-container{
         background-color: rgb(18, 207, 47);
+        grid-template-columns: 0.5fr 0fr 1.5fr;
+    }
+    .navtitle {
+        padding: 11% 17%;
     }
 }
 
