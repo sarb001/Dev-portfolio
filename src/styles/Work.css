@@ -28,3 +28,12 @@
 .btn{
     width: 90%;
 }
+
+@media screen and (max-width : 889px){  
+    .workcard-container{
+        margin: 4% 0%;
+    }
+    .portfolio-container{
+        grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    }
+}

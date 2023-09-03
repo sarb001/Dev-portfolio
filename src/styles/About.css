@@ -25,3 +25,11 @@
     margin: 5% 1%;
 }
 
+@media screen and (max-width : 889px){  
+    .card{
+        width: 312px;
+        font-size: 17px;
+    }
+}
+
+

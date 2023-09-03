@@ -8,3 +8,8 @@
     align-self: center;
     margin: 6%;
 }
+@media screen and (max-width : 889px){  
+    .home-avataimg > img{
+        width: 75%;
+    }
+}

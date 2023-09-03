@@ -17,3 +17,13 @@
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
 }
+
+@media screen and (max-width : 900px){  
+   .skills {
+    width: 80%;
+   }
+   .skill-logo-section{
+    grid-template-columns: repeat(auto-fit,minmax(231px,1fr));
+    justify-items: center;
+}
+}

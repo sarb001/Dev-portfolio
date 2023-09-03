@@ -14,3 +14,21 @@
 .navtitle{
     padding: 2% 7%;
 }
+
+@media screen and (max-width : 900px){  
+    .navbar-container{
+        background-color: red;
+    }
+}
+
+@media screen and (max-width : 768px){  
+    .navbar-container{
+        background-color: rgb(18, 207, 47);
+    }
+}
+
+@media screen and (max-width : 480px){  
+    .navbar-container{
+        background-color: rgb(13, 216, 238);
+    }
+}
