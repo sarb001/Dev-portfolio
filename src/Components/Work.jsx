@@ -3,7 +3,7 @@ import '../styles/Work.css';
 
 const Work = () => {
   return (
-    <div className="work-container">
+    <div className="work-container" id = "work">
           <div className = "work-section" >
              <span className = "portfolio-text" > My Creative Portfolio Section  </span>
           </div>

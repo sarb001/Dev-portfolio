@@ -3,7 +3,7 @@ import '../styles/Home.css' ;
 
 const Home = () => {
   return (
-    <div className="home-container">
+    <div className="home-container" id = "home">
                 <div className="home-items">
                     <div className="home-text">
                        <span id = "font" > Hello I'm Sarb, Full Stack  Web Dev from India  </span>
