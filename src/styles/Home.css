@@ -1,6 +1,8 @@
 .home-items{
-    display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.home-avataimg > img{
+    width: 68%;
 }
 .home-text{
     display: flex;
@@ -12,27 +14,45 @@
     font-size: 34px;
 }
 
-@media screen and (max-width : 889px){  
-    .home-avataimg > img{
-        width: 75%;
+@media screen and (max-width : 1500px){  
+    .home-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
+
 @media screen and (max-width : 768px){  
     #font {
         font-size: 26px;
     }
-}
-@media screen and (max-width : 480px){  
-    .navbar-container{
-        background-color: rgb(13, 216, 238);
+    .home-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
+}
+
+@media screen and (max-width : 889px){  
+    .home-avataimg > img{
+        width: 75%;
+    }
+    .home-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (max-width : 530px){  
     .home-avataimg > img{
         width: 68%;
     }
     .home-items{
-        grid-template-rows: 0.5fr 0.5fr;
+        grid-template-rows: 1fr 1fr;
     }
     .home-text{
         margin: 12% 18%;
     }
 }
+
+
+   

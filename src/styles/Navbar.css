@@ -1,38 +1,108 @@
 .navlinks > ul{
     list-style-type: none;
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
+    display: flex;
 }
 .navbar-container{
-    display: grid;
-    grid-template-columns: 1fr 0fr 1fr;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     padding: 1%;
-    position: fixed;
-    background-color: transparent;
+    background-color: rgb(33, 53, 108);
+    position: relative;
 }
 .navtitle{
     padding: 2% 7%;
 }
+.burger-menu {
+    justify-content: space-between;
+    display: none;
+    width: 38px;
+    height: 3.7vh;
+    flex-direction: column;
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+}
+.navlinks li a {
+    display: block;
+}
+ul > li {
+ width: 100px;
+}
+li > a {
+    display: block;
+    text-decoration: none;
+    padding: 2%;
+    color: white;
+    font-family: Instrument Serif;
+}
+.bar{
+        display: inherit;
+        height: 0.8vh;
+        border: 2px solid black;
+        height: 0.6vh;
+        background-color: rgb(240, 250, 250);
+}
+
+@media screen and (max-width : 1500px){  
+    .navbar-container{
+        background-color: rgb(33, 53, 108);
+        padding: 0%;
+        position: fixed;
+        width: 100%;
+    }
+}
 
 @media screen and (max-width : 900px){  
     .navbar-container{
-        background-color: red;
+        background-color:rgb(33, 53, 108);
+        padding: 0%;
     }
 }
 
 @media screen and (max-width : 768px){  
     .navbar-container{
-        background-color: rgb(18, 207, 47);
-        grid-template-columns: 0.5fr 0fr 1.5fr;
+        background-color: rgb(33, 53, 108);
     }
     .navtitle {
-        padding: 11% 17%;
+        padding: 0%;
+    }
+    .navlinks> ul {
+        padding: 0%;
+        width: 100%;
+
     }
 }
 
-@media screen and (max-width : 480px){  
+@media screen and (max-width : 530px){  
     .navbar-container{
-        background-color: rgb(13, 216, 238);
+        background-color:rgb(33, 53, 108);
+        flex-direction: column;
+        align-items: flex-start;
+        z-index: 100;
+        position: fixed;
+    }
+    .burger-menu{
+        display: flex;
+    }
+    .navlinks{      
+        display: none;
+        width: 100%;
+    }
+    .navlinks > ul{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .navlinks li{
+        text-align: center;
+    }
+    .navlinks.active{
+        display: flex;
+    }
+    .navtitle{
+        padding: 4% 17%;
     }
 }
+
