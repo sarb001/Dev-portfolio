@@ -13,7 +13,7 @@ const Work = () => {
                     <div className="workcard-container">
                         <div className="workcard">
                           <div className="card-img">
-                              <img src = "/src/assets/web-designer.png"   alt = "Web-Designer" />
+                              <img src = "/public/web-designer.png"   alt = "Web-Designer" />
                           </div>
                           <div className="main-header">
                               Insight-Ecommerce-Store
@@ -31,7 +31,7 @@ const Work = () => {
                      <div className="workcard-container">
                         <div className="workcard">
                           <div className="card-img">
-                              <img src = "/src/assets/web-designer.png"   alt = "Web-Designer" />
+                              <img src = "/public/web-designer.png"   alt = "Web-Designer" />
                           </div>
                           <div className="main-header">
                           Insight-Social-App
@@ -49,7 +49,7 @@ const Work = () => {
                      <div className="workcard-container">
                         <div className="workcard">
                           <div className="card-img">
-                              <img src = "/src/assets/web-designer.png"   alt = "Web-Designer" />
+                              <img src = "/public/web-designer.png"   alt = "Web-Designer" />
                           </div>
                           <div className="main-header">
                               Insight-Ecommerce-Store

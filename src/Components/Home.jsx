@@ -9,7 +9,7 @@ const Home = () => {
                        <span id = "font" > Hello I'm Sarb, Full Stack  Web Dev from India  </span>
                     </div>
                     <div className="home-avataimg">
-                      <img src = "/src/assets/owner Avatar.png"   alt = "avatar-img" />
+                      <img src = "/public/owner Avatar.png"   alt = "avatar-img" />
                     </div>
                 </div>
     </div>
