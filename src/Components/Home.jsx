@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Home.css' ;
+import  AvatarImg  from '../../public/owner Avatar.png';
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
                        <span id = "font" > Hello I'm Sarb, Full Stack  Web Dev from India  </span>
                     </div>
                     <div className="home-avataimg">
-                      <img src = "/owner Avatar.png"   alt = "avatar-img" />
+                      <img src = {AvatarImg}   alt = "avatar-img" />
                     </div>
                 </div>
     </div>
