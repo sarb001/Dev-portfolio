@@ -13,7 +13,7 @@ const About = () => {
                         <div className = 'card-container'>
                                   <div className="card">
                                     <div className="cardimage">
-                                      <img   src  = "/public/web-designer.png"  alt = "web-designer" />
+                                      <img   src  = "/web-designer.png"  alt = "web-designer" />
                                     </div>
                                     <div className="card-header">
                                     Web Designer 
@@ -28,7 +28,7 @@ const About = () => {
                         <div className = 'card-container'>
                             <div className="card">
                               <div className="cardimage">
-                                <img   src  = "/public/React -dev.png"  alt = "react-dev" />
+                                <img   src  = "/React -dev.png"  alt = "react-dev" />
                               </div>
                               <div className="card-header">
                                 React  Developer  
@@ -44,7 +44,7 @@ const About = () => {
                         <div className = 'card-container'>
                             <div className="card">
                               <div className="cardimage">
-                                <img   src  = "/public/Front-end.png"  alt = "Frontend" />
+                                <img   src  = "/Front-end.png"  alt = "Frontend" />
                               </div>
                               <div className="card-header">
                               Front-end Dev 
@@ -60,7 +60,7 @@ const About = () => {
                         <div className = 'card-container'>
                             <div className="card">
                               <div className="cardimage">
-                                <img   src  = "/public/backend-dev.png"  alt = "Backend" />
+                                <img   src  = "/backend-dev.png"  alt = "Backend" />
                               </div>
                               <div className="card-header">
                               Back-end Dev 

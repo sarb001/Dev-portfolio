@@ -13,55 +13,55 @@ const Skills = () => {
             
               <div className="skills">
                  <div className="skillimg">
-                  <img src = "/public/HTML-1.png"   alt = "HTML" />
+                  <img src = "/HTML-1.png"   alt = "HTML" />
                  </div>
               </div>
 
               <div className="skills">
                  <div className="skillimg">
-                  <img src = "/public/JS-3.png"   alt = "JS" />
+                  <img src = "/JS-3.png"   alt = "JS" />
                  </div>
               </div>
 
               <div className="skills">
                  <div className="skillimg">
-                  <img src = "/public/React-4.png"   alt = "React" />
+                  <img src = "/React-4.png"   alt = "React" />
                  </div>
               </div>
 
               <div className="skills">
                  <div className="skillimg">
-                  <img src = "/public/Firebase-7.7-removebg-preview.png"   alt = "Firebase" />
+                  <img src = "/Firebase-7.7-removebg-preview.png"   alt = "Firebase" />
                  </div>
               </div>
 
               <div className="skills">
                  <div className="skillimg">
-                  <img src = "/public/Redux-5.png"   alt = "Redux"  />
+                  <img src = "/Redux-5.png"   alt = "Redux"  />
                  </div>
               </div>
 
               <div className="skills">
                  <div className="skillimg">
-                  <img src = "/public/Tailwind-5.png"   alt = "Tailwind"  />
+                  <img src = "/Tailwind-5.png"   alt = "Tailwind"  />
                  </div>
               </div>
 
               <div className="skills">
                  <div className="skillimg">
-                  <img src = "/public/nodejs-1.jpg"   alt = "Node-JS"  />
+                  <img src = "/nodejs-1.jpg"   alt = "Node-JS"  />
                  </div>
               </div>
 
               <div className="skills">
                  <div className="skillimg">
-                  <img src = "/public/postman-icon-svgrepo-com.svg"   alt = "Postman"  />
+                  <img src = "/postman-icon-svgrepo-com.svg"   alt = "Postman"  />
                  </div>
               </div>
 
               <div className="skills">
                  <div className="skillimg">
-                  <img src = "/public/CSS-2.png"   alt = "CSS"  />
+                  <img src = "/CSS-2.png"   alt = "CSS"  />
                  </div>
               </div>
 
