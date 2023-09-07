@@ -13,7 +13,7 @@ const Work = () => {
                      <div className="workcard-container">
                         <div className="workcard">
                           <div className="card-img">
-                              <img src = "/web-designer.png"   alt = "Web-Designer" />
+                              <img src = "/public/Ecommerce-app (2).png"   alt = "Web-Designer" />
                           </div>
                           <div className="main-header">
                              <b> Insight-Ecommerce-Store </b>  
@@ -31,7 +31,7 @@ const Work = () => {
                      <div className="workcard-container">
                         <div className="workcard">
                           <div className="card-img">
-                              <img src = "/web-designer.png"   alt = "Web-Designer" />
+                              <img src = "/public/Social-Media-App (2).png"   alt = "Web-Designer" />
                           </div>
                           <div className="main-header">
                               <b>  Insight-Social-Media-App  </b>
@@ -39,7 +39,7 @@ const Work = () => {
                           <div className="card-detail">
                                 Connect With Friends and relatives  to Share and Like Posts 
                                 <div className="btn-section">
-                                    <a className='btn' target = "_blank" href = "https://social-media-frontend-8s19.onrender.com/"> Live Project  </a>
+                                    <a className='btn' target = "_blank" href = "https://social-media-frontend-8s19.onrender.com/login"> Live Project  </a>
                                     <a className='btn' target = "_blank" href = "https://github.com/sarb001/Share-Insight-Social-App"> Source Code  </a>
                               
                                 </div>
