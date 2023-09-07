@@ -20,7 +20,7 @@ const Contact = () => {
                      <FiTwitter />
                      </div>
                       <div className="logo-text">
-                        iamsarb_001 
+                        <a href = "https://twitter.com/iamsarb_001"> iamsarb_001  </a> 
                       </div>
                     </div>
 
@@ -29,7 +29,7 @@ const Contact = () => {
                     <BsLinkedin />
                   </div>
                       <div className="logo-text">
-                      sarbkalyan-singh
+                      <a href = "https://www.linkedin.com/in/sarbkalyan-singh-399158159/"> sarbkalyan-singh </a>   
                       </div>
                     </div> 
 
@@ -38,7 +38,7 @@ const Contact = () => {
                      < BsGithub />
                    </div>
                       <div className="logo-text">
-                          sarb001
+                        <a href = "https://github.com/sarb001"> sarb001 </a>   
                       </div>
                     </div>
 
@@ -47,7 +47,7 @@ const Contact = () => {
                          <MdOutgoingMail />
                       </div>
                       <div className="logo-text">
-                          mrsinghbusiness05@gmail.com 
+                         <a href = "mailto:mrsinghbusiness05@gmail.com "> mrsinghbusiness05@gmail.com  </a>  
                       </div>
                     </div>  
 
