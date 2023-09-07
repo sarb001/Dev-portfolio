@@ -5,8 +5,8 @@ const About = () => {
   return (
     <div className="about-container" id = "about">
                 <div className="about-section" >
-                     <div className = 'about' > About me!  </div>
-                </div>
+                     <div className = 'about' >  About me!  </div>
+                </div>  
 
                     <div className="allcard-container">
                   

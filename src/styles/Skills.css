@@ -1,11 +1,11 @@
 .skills-text {
     font-size: 30px;
+    font-weight: 500;
 }
 .skillimg > img {
     width: 70%;
     height: 100%;
     border-radius: 50%;
-    
 }
 .skills{
     background-color: rgb(180, 178, 178);
@@ -16,6 +16,7 @@
 .skill-logo-section{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    justify-items: center;
 }
 
 @media screen and (max-width : 900px){  

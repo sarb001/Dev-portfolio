@@ -5,13 +5,16 @@
     width: 68%;
 }
 .home-text{
-    display: flex;
     justify-content: center;
     align-self: center;
     margin: 6%;
 }
 #font{
-    font-size: 34px;
+    font-size: 35px;
+    width: 100%;
+}
+#font-2{
+    font-size: 22px;
 }
 
 @media screen and (max-width : 1500px){  
