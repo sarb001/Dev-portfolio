@@ -10,7 +10,7 @@ const Work = () => {
 
                   <div className = 'portfolio-container'>
                    
-                    <div className="workcard-container">
+                     <div className="workcard-container">
                         <div className="workcard">
                           <div className="card-img">
                               <img src = "/web-designer.png"   alt = "Web-Designer" />
@@ -37,9 +37,9 @@ const Work = () => {
                               <b>  Insight-Social-Media-App  </b>
                           </div>
                           <div className="card-detail">
-                                Connect With Friends and relatives  to Share and Like Posts
+                                Connect With Friends and relatives  to Share and Like Posts 
                                 <div className="btn-section">
-                                    <a className='btn' target = "_blank" href = "https://social-media-frontend-8s19.onrender.com/login"> Live Project  </a>
+                                    <a className='btn' target = "_blank" href = "https://social-media-frontend-8s19.onrender.com/"> Live Project  </a>
                                     <a className='btn' target = "_blank" href = "https://github.com/sarb001/Share-Insight-Social-App"> Source Code  </a>
                               
                                 </div>
