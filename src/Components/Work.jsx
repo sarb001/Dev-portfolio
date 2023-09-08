@@ -58,7 +58,7 @@ const Work = () => {
                           <div className="card-detail">
                                   A Video Library  App used to Like,watch and Remove Videos from Collection of Videos  
                                   <div className="btn-section">
-                                    <a className='btn'  target = "_blank"  href = "https://video-library-webapp.netlify.app/"> Live Project  </a>
+                                    <a className='btn'  target = "_blank"  href = "https://main--video-library-webapp.netlify.app/"> Live Project  </a>
                                     <a  className='btn' target = "_blank" href = "https://github.com/sarb001/Video-Library-Ecom-App"> Source Code  </a>
                                   </div>
                           </div>
