@@ -39,7 +39,7 @@ const Work = () => {
                           <div className="card-detail">
                                 Connect With Friends and relatives  to Share and Like Posts 
                                 <div className="btn-section">
-                                    <a className='btn' target = "_blank" href = "https://social-media-frontend-8s19.onrender.com/login"> Live Project  </a>
+                                    <a className='btn' target = "_blank" href = "https://github.com/sarb001/Share-Insight-Social-App"> Live Project  </a>
                                     <a className='btn' target = "_blank" href = "https://github.com/sarb001/Share-Insight-Social-App"> Source Code  </a>
                               
                                 </div>
